@@ -10,12 +10,11 @@ namespace DataLayer
         private const string StudentFilePath = "students.txt";
         private const string SummaryFilePath = "summary.txt";
 
-
-
         public void AddStudent(string studentId, string name, int age, string course)
         {
+            // Example of adding a student record to the file
             var newStudent = new Student(studentId, name, age, course);
-            File.AppendAllText(StudentFilePath, newStudent + Environment.NewLine);
+            File.AppendAllText(StudentFilePath, newStudent.ToString() + Environment.NewLine);
         }
 
         public List<Student> GetAllStudents()
@@ -32,6 +31,11 @@ namespace DataLayer
             return students;
         }
 
+        public Student GetStudentById(string studentId)
+        {
+            return GetAllStudents().FirstOrDefault(s => s.StudentId == studentId);
+        }
+
         public void UpdateStudent(string studentId, string name, int age, string course)
         {
             var students = GetAllStudents();
@@ -41,7 +45,8 @@ namespace DataLayer
                 student.Name = name;
                 student.Age = age;
                 student.Course = course;
-                SaveAllStudents(students);
+
+                File.WriteAllLines(StudentFilePath, students.Select(s => s.ToString()));
             }
         }
 
@@ -49,11 +54,7 @@ namespace DataLayer
         {
             var students = GetAllStudents();
             students = students.Where(s => s.StudentId != studentId).ToList();
-            SaveAllStudents(students);
-        }
 
-        private void SaveAllStudents(List<Student> students)
-        {
             File.WriteAllLines(StudentFilePath, students.Select(s => s.ToString()));
         }
 
