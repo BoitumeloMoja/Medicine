@@ -1,0 +1,50 @@
+﻿301,John Doe,21,Medicine
+452,Jane Smith,22,Nursing
+539,Emily Davis,23,Pharmacy
+684,Michael Brown,20,Dentistry
+175,David Wilson,25,Public Health
+412,Emma Johnson,24,Medical Laboratory Science
+330,James White,22,Physiotherapy
+215,Olivia Harris,23,Medicine
+128,Daniel Clark,21,Speech Therapy
+501,Isabella Lewis,22,Healthcare Administration
+621,William Walker,23,Medicine
+334,Charlotte Hall,24,Nursing
+178,Elijah Allen,25,Public Health
+283,Ava Young,21,Pharmacy
+467,Benjamin King,22,Medical Laboratory Science
+398,Mia Wright,23,Physiotherapy
+506,Lucas Scott,20,Speech Therapy
+150,Sophia Adams,22,Dentistry
+609,Jackson Nelson,21,Medicine
+356,Amelia Carter,23,Nursing
+250,Ethan Mitchell,24,Healthcare Administration
+602,Abigail Perez,25,Public Health
+181,Alexander Roberts,22,Pharmacy
+434,Harper Bennett,21,Medical Laboratory Science
+232,Logan Gray,23,Physiotherapy
+123,Grace Jackson,22,Speech Therapy
+498,Daniel Turner,21,Healthcare Administration
+541,Levi Morris,23,Dentistry
+642,Scarlett Lee,24,Medicine
+380,Jackson Rivera,21,Nursing
+297,Victoria Gonzalez,22,Public Health
+469,Sebastian Perez,20,Pharmacy
+150,Lily Kelly,23,Medical Laboratory Science
+500,Owen Ward,24,Physiotherapy
+520,Chloe Sanders,21,Speech Therapy
+228,Henry Price,22,Dentistry
+332,Emily Cooper,20,Healthcare Administration
+467,Zachary Simmons,23,Medicine
+387,Elizabeth Howard,21,Nursing
+290,Samuel Flores,22,Public Health
+516,Madison Barnes,23,Pharmacy
+255,Oliver Ross,24,Medical Laboratory Science
+310,Amos Hill,21,Physiotherapy
+548,Grace Watson,22,Speech Therapy
+433,Jack Davis,20,Dentistry
+599,Addison Young,23,Healthcare Administration
+464,Aiden Allen,21,Medicine
+633,Sydney Nelson,22,Nursing
+582,Harper Moore,23,Public Health
+541,Liam King,24,Pharmacy
