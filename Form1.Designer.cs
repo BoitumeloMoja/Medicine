@@ -1,4 +1,4 @@
-﻿namespace Project_Form
+﻿namespace Medicine
 {
     partial class Form1
     {
